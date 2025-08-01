@@ -11,7 +11,7 @@ RUN npm install
 
 # Install pm2 globally
 RUN npm install -g pm2
-
+RUN npm install dotenv
 # Copy the rest of the application code to the working directory
 COPY . .
 
